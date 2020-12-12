@@ -4,6 +4,9 @@
 * Dari OOV (kata alay) yang kita dapatkan akan digenerate sebuah kode soundex berdasarkan rule (createsoundex.py)
 * Ketika OOV sudah tergenerate kemudian lanjut kita generate Soundex kode untuk Kamus KBBI
 * Ketika Kata Alay (OOV) dan Kamus KBBI sudah tergenerate masing masing kode soundexnya lanjut kita proses dengan algoritma levenshtein distance.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Notes : 
 
 - Createsoundex.py for generate soundex code (OOVSOUNDEX.csv)
 - Main.py for generate the right word depends on OOV (OOVDUMMY.csv) and KAMUS KBBI (KAMUSDUMMY) Data.
